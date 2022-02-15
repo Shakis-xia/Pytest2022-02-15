@@ -1,0 +1,2 @@
+2022-02-15 15:21:56 [INFO] 获得模块的列名：attach====成功 [case01.py:15]
+2022-02-15 15:21:56 [ERROR] 获得模块的列名====失败====type:UnboundLocalError====msg:local variable 'columns' referenced before assignment [case01.py:18]
