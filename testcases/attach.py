@@ -25,7 +25,7 @@ def test_login(caseinfo,url,method,type,attach_args,args,expect_res):
     passed,msg = check(caseinfo,expect_res,res_type,real_res)
     assert passed,msg
 
-if __name__ == '__main__':
-    import time
-    now = time.strftime('%y-%m-%d_%H:%M:%S')
-    pytest.main(['--tb=short',f'--html=../report/{module}_{now}.html',f'{module}.py'])
+# if __name__ == '__main__':
+import time
+now = time.strftime('%y-%m-%d_%H:%M:%S')
+pytest.main(['--tb=short',f'--html=../report/{module}_{now}.html',f'{module}.py'])
