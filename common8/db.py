@@ -1,6 +1,8 @@
+import pymysql
+import sys
+sys.path.append('..')
 from common8.log import log
 from common8.conf import Conf
-import pymysql
 def read_sqls(sqlsfile):
     try:
         sqlsfile = '../initsqls/' + sqlsfile

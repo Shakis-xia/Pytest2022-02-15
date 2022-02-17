@@ -1,3 +1,5 @@
+import sys
+sys.path.append('..')
 import pytest
 import requests
 from common8.db import DB
